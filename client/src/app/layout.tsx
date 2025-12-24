@@ -12,6 +12,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sayngo",
   description: "Store Your Internal Data",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
